@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.brd{
+	border: 1px solid #ddd;
+}
+header{
+	height: 200px;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+#logo{
+	width: 22%;
+	height: 100%;
+	border: 1px solid #ddd;
+	float: left;
+}
+.header-wrapper{
+	width: 78%;
+	overflow: hidden;
+	float: left;
+}
+.topnav, .search, .contact{
+	float: right;
+}
+.topnav ul li, nav ul li{
+	float: left;
+	list-style-type: none;
+}
+.topnav li a{
+	text-decoration: none;
+	padding: 7px 15px;
+	display: block;
+}
+nav{
+	float: left;
+	width: auto;
+}
+nav li a{
+	padding: 17px 20px;
+	display: block;
+}
+.search{
+	margin-right: 15px;
+}
+.search input{
+	padding: 5px;
+	width: 140px;
+}
+.search button{
+	width: 100px;
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid #fff;
+}
+.contact{
+	padding: 17px 15px;
+}
+#main{
+	padding: 10px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+aside{
+	float: left;
+	width: 20%;
+	border: 1px solid blue;
+	overflow: hidden;
+}
+aside ul li{
+	padding: 10px;
+	border: 1px solid #ddd;
+	list-style-type: none;
+}
+aside li a{
+}
+#content{
+	width: 80%;
+	float: right;
+	overflow: hidden;
+	padding: 0 20px;
+	border: 1px solid green;
+}
+#banner{
+	width: auto;
+	height: 130px;
+	border: 1px solid tomato;
+	margin-bottom: 15px;
+}
+.featured{
+	margin-bottom: 15px;
+}
+.products{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.product{
+	height: 200px;
+	padding: 5px;
+	width: 50%;
+	float: left;
+	border: 1px solid cyan;
+	text-align: center;
+}
+.product .cover{
+	border: 1px solid orange;
+	overflow: hidden;
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+.product .naon{
+	width: 65%;
+	float: right;
+}
+.product .naon p, .product .naon h3{
+	margin: 10px 0;
+	text-align: left;
+}
+.product .naon button{
+	padding: 7px;
+	width: 150px;
+	border-radius: 20px;
+	border: 1px solid #ddd;
+}
